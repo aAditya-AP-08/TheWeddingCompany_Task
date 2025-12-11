@@ -4,22 +4,22 @@ A multi-tenant backend service built with FastAPI and MongoDB for managing organ
 
 ## Features
 
-- ✅ Create organizations with dynamic MongoDB collections
-- ✅ Get organization details
-- ✅ Update organization (with data migration)
-- ✅ Delete organization (authenticated admin only)
-- ✅ Admin authentication with JWT tokens
-- ✅ Secure password hashing with bcrypt
-- ✅ Master database for global metadata
-- ✅ Dynamic collection creation per organization
+- Create organizations with dynamic MongoDB collections
+-  Get organization details
+-  Update organization (with data migration)
+-  Delete organization (authenticated admin only)
+-  Admin authentication with JWT tokens
+-  Secure password hashing with bcrypt
+-  Master database for global metadata
+-  Dynamic collection creation per organization
 
 ## Tech Stack
 
-- **Framework**: FastAPI (Python 3.8+)
-- **Database**: MongoDB (with Motor async driver)
-- **Authentication**: JWT (python-jose)
-- **Password Hashing**: bcrypt (passlib)
-- **Validation**: Pydantic
+- Framework: FastAPI (Python 3.8+)
+- Database: MongoDB (with Motor async driver)
+- Authentication: JWT (python-jose)
+- Password Hashing: bcrypt (passlib)
+- Validation: Pydantic
 
 ## Project Structure
 
@@ -421,4 +421,5 @@ This project is created for assignment purposes.
 ## Author
 
 Backend Intern Assignment Submission
+
 
